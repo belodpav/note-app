@@ -1,0 +1,29 @@
+.note-app {
+	background: #f2f2f2;
+	//height: 100%;
+	min-height: 100vh;
+}
+.note-app__inner {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 620px;
+}
+.note-app__header {
+	padding: 10px 0;
+	background: #F1C40F;
+}
+.note-app__title {
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 14px;
+    line-height: 1;
+	margin: 0 0 10px 0;
+}
+@media (min-width: 768px) {
+	.note-app__inner {
+		
+	}
+}
